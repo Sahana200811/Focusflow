@@ -1,0 +1,18 @@
+{
+    "name": "FocusFlow",
+    "short_name": "FocusFlow",
+    "description": "An advanced Pomodoro timer and task dashboard to boost your productivity.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0a1a",
+    "theme_color": "#7c3aed",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/vite.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}

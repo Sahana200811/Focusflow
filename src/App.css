@@ -1,0 +1,71 @@
+/* ========================================
+   App Layout Styles
+   ======================================== */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 24px;
+  padding: 24px 32px;
+  flex: 1;
+  align-items: start;
+}
+
+.dashboard-timer {
+  position: sticky;
+  top: 24px;
+}
+
+.dashboard-tasks {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* --- Footer --- */
+.app-footer {
+  padding: 20px 32px;
+  text-align: center;
+}
+
+.app-footer p {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+}
+
+.footer-link {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-underline-offset: 2px;
+  transition: color var(--transition-fast);
+}
+
+.footer-link:hover {
+  color: var(--accent-secondary);
+}
+
+/* --- Responsive Layout --- */
+@media (max-width: 900px) {
+  .dashboard {
+    grid-template-columns: 1fr;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .dashboard-timer {
+    position: static;
+  }
+}
