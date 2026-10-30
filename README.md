@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34190013/README.md)
 # FocusFlow 
 
 > An advanced, aesthetic Pomodoro timer and Kanban task dashboard designed to boost productivity and flow state. Built with React 19, Vite, and modern Web APIs.
