@@ -1,24 +1,23 @@
-[README.md](https://github.com/user-attachments/files/34189977/README.md)
-# FocusFlow ⏱️⚡
+# FocusFlow ⏱️
 
 > An advanced, aesthetic Pomodoro timer and Kanban task dashboard designed to boost productivity and flow state. Built with React 19, Vite, and modern Web APIs.
 
 ---
 
-## ✨ Features
+##  Features
 
-- **⏱️ Flexible Pomodoro Engine**
+- ** Flexible Pomodoro Engine**
   - Configurable Focus, Short Break, and Long Break intervals.
   - Visual circular progress ring with auto-start breaks and cycle switching.
   - Real-time tab title notifications.
 
-- **📋 Kanban Task Management**
+- ** Kanban Task Management**
   - Organize workflow with **To Do**, **In Progress**, and **Done** columns.
   - Priority labeling (**High**, **Medium**, **Low**) with visual badges.
   - Move tasks with one-click transitions or drag actions.
   - Persistent local storage — your data stays on your machine.
 
-- **🪄 Smart Task Breakdown**
+- ** Smart Task Breakdown**
   - Auto-deconstructs complex tasks (e.g. *Study*, *Develop*, *Write*, *Research*) into actionable subtask checklists.
   - Progress tracking for subtasks with automatic completion sync.
 
