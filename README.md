@@ -1,45 +1,45 @@
-   # FocusFlow ⏱
+   # FocusFlow ⏱⚡
 
     > An advanced, aesthetic Pomodoro timer and Kanban task dashboard designed to boost productivity and flow state. Built with React 19, Vite, and
     modern Web APIs.
 
     ---
     
-    ##  Features
+    ## ✨ Features
     
     - **⏱ Flexible Pomodoro Engine**
       - Configurable Focus, Short Break, and Long Break intervals.
       - Visual circular progress ring with auto-start breaks and cycle switching.
       - Real-time tab title notifications.
 
-    - ** Kanban Task Management**
+    - **📋 Kanban Task Management**
       - Organize workflow with **To Do**, **In Progress**, and **Done** columns.
       - Priority labeling (**High**, **Medium**, **Low**) with visual badges.
       - Move tasks with one-click transitions or drag actions.
       - Persistent local storage — your data stays on your machine.
     
-    - ** Smart Task Breakdown**
+    - **🪄 Smart Task Breakdown**
       - Auto-deconstructs complex tasks (e.g. *Study*, *Develop*, *Write*, *Research*) into actionable subtask checklists.
       - Progress tracking for subtasks with automatic completion sync.
 
-    - ** Productivity Analytics & Streaks**
+    - **📊 Productivity Analytics & Streaks**
       - Interactive charts powered by [Recharts](https://recharts.org/) (Focus minutes, sessions completed, and daily breakdown).
       - Configurable historical view: 7, 14, or 30 days.
       - Streak tracking (current streak, longest streak, and total focus time).
 
-    - ** Synthesized Ambient Soundscape**
+    - **🎧 Synthesized Ambient Soundscape**
       - Built-in sound generator powered entirely by the **Web Audio API** — no heavy external audio assets.
       - Ambient noise modes: **Rain**, **Pink Noise**, and **White Noise**.
       - Crisp audio cues for timer completions.
 
-    - ** Delightful Micro-Interactions**
+    - **🎉 Delightful Micro-Interactions**
       - Canvas confetti animations on task completion.
       - Responsive, modern glassmorphic dark theme.
 
-    - ** Keyboard-First Shortcuts**
+    - **⌨ Keyboard-First Shortcuts**
       - Control your entire workflow without leaving the keyboard.
 
-    - ** Progressive Web App (PWA)**
+    - **📱 Progressive Web App (PWA)**
       - Fully offline-ready with service worker caching and standalone display support.
 
     ---
@@ -61,7 +61,7 @@
 
     ---
 
-    ##  Tech Stack
+    ## 🛠 Tech Stack
     
     - **Framework**: [React 19](https://react.dev/)
     - **Bundler / Build Tool**: [Vite 7](https://vite.dev/)
@@ -104,7 +104,7 @@
     ├── package.json            # Scripts & dependencies
     └── vite.config.js          # Vite configuration
   ──────
-  ##  Getting Started
+  ## 🚀 Getting Started
 
   ### Prerequisites
 
@@ -130,6 +130,6 @@
     npm run preview
 
   ──────
-  ##  License
+  ## 📄 License
 
   This project is licensed under the MIT License /LICENSE.
